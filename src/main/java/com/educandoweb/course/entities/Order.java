@@ -101,6 +101,7 @@ public class Order implements Serializable {
 		return items;
 	}
 	
+	//get Total metodo calcula o total 
 	public Double getTotal() {
 		double sum = 0.0;
 		for (OrderItem x : items) {
